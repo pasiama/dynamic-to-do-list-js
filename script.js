@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       function addTask(taskText, save = true) {
           // Check if taskText is not empty
           if (taskText.trim() === '') {
+            alert("Please enter a task")
               return;
           }
   
